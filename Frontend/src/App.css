@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.lasb {
+  width: max-content;
+  color: chocolate;
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 0.5px solid chocolate;
+  margin-bottom: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.username {
+  font-size: 15px;
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input:placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(98, 91, 91);
+  padding: 100px;
+  outline: none;
+}
+
+option {
+  font-size: 12px;
+  color: rgb(98, 91, 91);
+  outline: none;
+}
+
+.maplibregl-popup-content {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px 10px;
+  pointer-events: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff0000;
+  padding: 10px 30px;
+  border: none;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 14px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
