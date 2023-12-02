@@ -46,7 +46,7 @@ The MapMemoir App is a web application developed using React.js for the frontend
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/ArinPrajapati/Frontend-MapMemoir.git`(frotend)
+1. Clone the repository: `git clone https://github.com/ArinPrajapati/Frontend-MapMemoir.git`(frontend)
 2. Clone the repository: `git clone https://github.com/ArinPrajapati/backend-MapMemoir.git`(backend)
 3. Install dependencies: `npm install`(backend and Frontend both)
 4. Start the development server: `npm start`(backend)
